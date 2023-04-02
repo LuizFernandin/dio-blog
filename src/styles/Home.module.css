@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+
+  padding: 6rem;
+  min-height: 100vh;
+  font-family: var(--font-mono);
+}
+
+.description {
+  font-size: 0.85rem;
+  width: 60%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  gap: 1rem;
+
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(238, 240, 241, 0.5);
+  border: 1px solid rgba(172, 175, 176, 0.3);
+  border-radius: 12px;
+}
+
+.description h4 {
+  color: #00000095;
+}
+
+.description hr {
+  width: 100%;
+  border: 1px solid rgba(172, 175, 176, 0.3);
+}
